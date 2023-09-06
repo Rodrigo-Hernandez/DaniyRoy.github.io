@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <link rel="stylesheet" href="css/specific.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ephesis&family=Josefin+Slab&family=Raleway:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Daniela & Rodrigo</title>
+  </head>
+  <body>
+    <!--Primera sección Foto e intro-->
+    <div class="capa"></div>
+    <div class="hero">
+      <img src="media/mitadDer.jpg" alt="Nosotros" class="primeraFoto" />
+
+      <div class="nuestraBoda">
+        <h1>Daniela & Rodrigo</h1>
+        <h6>Nuestra boda</h6>
+      </div>
+    </div>
+    <!--Cuenta regresiva-->
+    <div class="contador">
+      <div>
+        <div id="days">00</div>
+        <div id="hours">00</div>
+        <div id="minutes">00</div>
+        <div id="seconds">00</div>
+      </div>
+      <div>
+        <div id="dias">Días</div>
+        <div id="horas">Horas</div>
+        <div id="minutos">Minutos</div>
+        <div id="segundos">Segundos</div>
+      </div>
+    </div>
+    <!--Contador JS -->
+    <script src="scripts/trucos.js"></script>
+    <div class="intro">
+      <p>
+        <br />
+        De común acuerdo y en plena posesión de nuestras facultades mentales
+        (sean las que sean), hemos decidido que... <br /><br />
+      </p>
+
+      <h2>¡¡Nos casamos!!</h2>
+      <br />
+
+      <p>Y queremos compartir la feicidad de nuestra unión</p>
+    </div>
+
+    <!--Sección de tarjetas con información (Iglesia y Jardín)-->
+    <div class="info container">
+      <div class="tarjeta">
+        <a
+          href="https://www.google.com/maps/place/Santuario+Nuestra+Se%C3%B1ora+de+la+Soledad/@20.6396937,-103.3150789,17z/data=!3m1!4b1!4m6!3m5!1s0x8428b3b4b7864039:0x720a85b7458cf61c!8m2!3d20.6396937!4d-103.312504!16s%2Fg%2F1thcn2gj?hl=es-419&entry=ttu"
+        >
+          <img
+            src="media/Iglesia.jpg"
+            class="infoImg"
+            alt="Templo de nuestra señora de la soledad"
+          />
+          <div class="informacion">
+            <p class="nombreLugar">Santuario Nuestra Señora de la Soledad</p>
+          </div>
+        </a>
+      </div>
+      <div class="tarjeta">
+        <a
+          href="https://www.google.com/maps/place/%22QUINTA+LOLAIS%22/@20.6635098,-103.2435325,17z/data=!3m1!4b1!4m6!3m5!1s0x8428b422bee666a3:0x80b67eabe9bca678!8m2!3d20.6635068!4d-103.2419855!16s%2Fg%2F11gzjypwk?entry=ttu"
+          ><img src="media/Quinta.jpg" class="infoImg" alt="Quinta Lolais" />
+
+          <div class="informacion">
+            <p class="nombreLugar">Quinta Lolais</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!--Confirmación con nombre y numero-->
+    <div class="confirma grid grid--2cols">
+      <div class="confirmData">
+        <form action="sumbit">
+          <label for="nombre">Nombre completo </label><br />
+          <input type="text" id="nombre" />
+          <br /><br />
+          <label for="cel">Whatsapp</label><br />
+          <input type="phone" id="cel" />
+        </form>
+        <button>Confirmar</button>
+      </div>
+      <div class="mediaFoto fullDer">
+        <img src="media/mitadDer.jpg" class="infoImg" />
+      </div>
+    </div>
+    <!--Mesa de regalos-->
+    <div class="mesaRegalos grid grid--2cols">
+      <div class="amz">
+        <a
+          href="https://www.amazon.com.mx/wedding/daniela-pulido-rodrigo-hernandez-guadalajara-november-2023/registry/33ITLAK3WAHM9"
+          ><img src="media/unnamed.png" alt=""
+        /></a>
+      </div>
+      <div class="liverpool">
+        <a
+          href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51028803"
+          ><img src="media/liverpool.png" alt=""
+        /></a>
+      </div>
+    </div>
+  </body>
+</html>
